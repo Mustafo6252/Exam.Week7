@@ -1,3 +1,8 @@
+## 1-BO‘LIM: Controller va Asinxronlik
+
+Quyidagi vazifalarda siz Web API controller endpointlarini yaratishingiz kerak. Har bir topshiriq uchun mos marshrut (`GET`) endpoint bo‘ladi. Asinxronlik va metodlar bilan ishlashga e’tibor qarating.
+
+
 ### 1. Tasodifiy son qaytarish  
 **🔗 Endpoint:** `GET /api/tools/random`  
 **📝 Sharti:** 0 dan 100 gacha bo‘lgan tasodifiy butun sonni qaytaring.
@@ -37,5 +42,41 @@
 **Qo‘llanishi mumkin:** `Math.Sqrt()` funksiyasi.
 
 📎 **Rasm:** <img width="600" height="900" alt="Screenshot 2025-07-19 at 19 46 20" src="https://github.com/user-attachments/assets/4636ed96-c29b-4478-9567-cb1b536b1501" />
+
+---
+
+## 2-BO‘LIM: Fayl va Kataloglar bilan ishlash
+
+Quyidagi vazifalarda siz fayllar va kataloglar bilan ishlashni amalda bajarishingiz kerak. Bunda .NET tizimidagi `System.IO` imkoniyatlaridan foydalaniladi.
+
+---
+
+### 1. `'C:\Temp'` papkasi mavjudligini tekshiring  
+**Sharti:**  
+Kompyuterda `C:\Temp` papkasi mavjud yoki yo‘qligini aniqlang.
+
+---
+
+### 2. `'test.txt'` nomli faylni yarating  
+**Sharti:**  
+Joriy papkada `test.txt` nomli yangi fayl yarating.
+
+---
+
+### 3. Fayl haqida ma’lumot oling  
+**Sharti:**  
+Yaratilgan `test.txt` faylining nomi, hajmi va yaratilgan vaqti haqida ma’lumot oling.
+
+---
+
+### 4. Ikki path (yo‘l) ni birlashtiring  
+**Sharti:**  
+Ikkita alohida fayl yo‘lini birlashtirib, bitta to‘liq yo‘l hosil qiling (masalan, papka va fayl nomini birlashtirish).
+
+---
+
+### 5. Faylga yozing va o‘qing  
+**Sharti:**  
+`test.txt` fayliga matn yozing va yozilgan matnni fayldan o‘qib ekranga chiqaring.
 
 ---
